@@ -11,7 +11,7 @@ Primitive types, those are built-in or predefined data types, can be used direct
 - `double`: also float point number but more decimal digits than `float`
 - `void`: valueless, has no associated values
 
-Example (refer to file [data-types.cpp](coding/data-types.cpp)):
+Example (refer to file [data-types.cpp](https://github.com/linhvth/learn-cpp/blob/40ea8a2279ea64d6c84fe09158eee96577dd8860/coding/data-types.cpp)):
 
 ```cpp
 bool testBoolean = false;               // boolean
@@ -46,7 +46,7 @@ C++ is statically-typed which means variable types are known at compile time and
 
 #### **Strongly-typed or Weakly-typed**
 
-C++ is strongly-typed (explicit), which means we cannot make conversions between unrelated types implicitly. Try this below example to see if it can execute (you can go to [strongly-typed.cpp](coding/strongly-typed.cpp) to download and execute code):
+C++ is strongly-typed (explicit), which means we cannot make conversions between unrelated types implicitly. Try this below example to see if it can execute (you can go to [strongly-typed.cpp](https://github.com/linhvth/learn-cpp/blob/40ea8a2279ea64d6c84fe09158eee96577dd8860/coding/strongly-typed.cpp) to download and execute code):
 
 ```cpp
 int main() {
@@ -57,7 +57,7 @@ int main() {
 }
 ```
 
-As we observe, the code above throws an error and cannot compile since we try to concatenate a string and an integer. So to concatenate, we have to convert int to string. However, if we try to add an int to a char, it's actually appropriate since C++ will refer the char to ASCII value and add to the int (convince yourself by executing [int-char-add.cpp](coding/int-char-add.cpp)).
+As we observe, the code above throws an error and cannot compile since we try to concatenate a string and an integer. So to concatenate, we have to convert int to string. However, if we try to add an int to a char, it's actually appropriate since C++ will refer the char to ASCII value and add to the int (convince yourself by executing [int-char-add.cpp](https://github.com/linhvth/learn-cpp/blob/40ea8a2279ea64d6c84fe09158eee96577dd8860/coding/int-char-add.cpp)).
 
 ## References
 

@@ -14,7 +14,7 @@
 
 In C++, there are 02 `bool` (boolean, I mean) values. Their literals are `true` and `false`. We can convert `bool` to integer type: `true` as 1 and `false` as 0.
 
-Example (download and try [bool-values.cpp](https://github.com/linhvth/learn-cpp/blob/40ea8a2279ea64d6c84fe09158eee96577dd8860/coding/bool-values.cpp)):
+Example (download and try [bool-values.cpp](./code/plp3/bool-values.cpp)):
 
 ```cpp
 #include <iostream>
@@ -41,7 +41,7 @@ In C++, there are some types of conditional statements: `if`, `if` - `else`, `if
 
 Using `if` conditional statement, only execute block code inside the `{}` if and only if the conditional expression is evaluated as `true`.
 
-Example (refer to [conditional-statements.cpp](https://github.com/linhvth/learn-cpp/blob/40ea8a2279ea64d6c84fe09158eee96577dd8860/coding/conditional-statements.cpp))
+Example (refer to [conditional-statements.cpp](./code/plp3/conditional-statements.cpp))
 
 ```cpp
 // if statement
@@ -64,7 +64,7 @@ You can see that it only prints "Yes! You passed the exam!" since the score (80)
 
 If you have 2 conditions and want to execute corresponding code block for specific condition, you can use `if` - `else` statement. If the condition in `if` statement is `true`, the first code block will be executed and then it will stop executing and get out of the conditional statement, which means it will not run the code block under the `else` statement. Otherwises, the `else` statement is considered and execute.
 
-Example (refer to [conditional-statements.cpp](https://github.com/linhvth/learn-cpp/blob/40ea8a2279ea64d6c84fe09158eee96577dd8860/coding/conditional-statements.cpp))
+Example (refer to [conditional-statements.cpp](./code/plp3/conditional-statements.cpp))
 
 ```cpp
 // if-else statement
@@ -86,7 +86,7 @@ You can see that in aboe example, the first condition (>= 60) is `false`. Theref
 
 When we have more than 2 conditions to test but do not want to write several `if` statements? We go with `else if`.
 
-Example (refer to [conditional-statements.cpp](https://github.com/linhvth/learn-cpp/blob/40ea8a2279ea64d6c84fe09158eee96577dd8860/coding/conditional-statements.cpp))
+Example (refer to [conditional-statements.cpp](./code/plp3/conditional-statements.cpp))
 
 ```cpp
 // if - else if - else statement
@@ -117,7 +117,7 @@ There are some notes when using `switch`:
 - When the `break` is reached, the `switch` will be terminated. The program will go to the next line of code followint `switch` - `case` statement.
 - There is an option called `default`. It is similar with `else`: the code under `default` will be considered when none of above cases is `true`.
 
-Example (refer to [conditional-statements.cpp](https://github.com/linhvth/learn-cpp/blob/40ea8a2279ea64d6c84fe09158eee96577dd8860/coding/conditional-statements.cpp))
+Example (refer to [conditional-statements.cpp](./code/plp3/conditional-statements.cpp))
 
 ```cpp
 // switch - case

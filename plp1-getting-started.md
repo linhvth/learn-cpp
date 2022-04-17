@@ -18,7 +18,7 @@ In this section, we will setup the environment (in Windows) and try our first pr
 
 I personally prefer Visual Studio Code. Go to [Download Visual Studio Code](https://code.visualstudio.com/download) to get the lastest version. Then, search for C/C++ extension for Visual Studio Code and install it (see the image below).
 
-![C/C++ extension in Visual Studio Code](https://github.com/linhvth/learn-cpp/blob/40ea8a2279ea64d6c84fe09158eee96577dd8860/images/cpp-extension-vsc.png)
+![C/C++ extension in Visual Studio Code](./images/cpp-extension-vsc.png)
 
 #### Step 2: Install a compiler
 
@@ -26,7 +26,7 @@ As mentioned above, since C++ is a compiled language, we have to install a compi
 
 ### **"Hello World!"**
 
-The code block below shows how we can print "Hello World!" in C++ (refer to [helloworld.cpp](https://github.com/linhvth/learn-cpp/blob/40ea8a2279ea64d6c84fe09158eee96577dd8860/coding/hello-world.cpp) file to download and execute the program)
+The code block below shows how we can print "Hello World!" in C++ (refer to [helloworld.cpp](./code/plp1/hello-world.cpp) file to download and execute the program)
 
 ```cpp
 #include <iostream>
